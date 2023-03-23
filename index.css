@@ -1,0 +1,71 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(215deg, rgba(51,83,46,1) 21%, rgba(0,212,255,1) 50%, rgba(0,205,248,1) 50%, rgba(2,0,36,1) 81%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculadoraSencilla{
+    background-color: #018766;
+    width: 25vw;
+    height: 70vh;
+    border-radius: 5%;
+    border: none;
+    padding: 1%;
+    box-shadow: 15px 15px 5px 0px rgb(24,51,82,0.70 );
+}
+
+#calculadoraSencilla form{
+    width: 100%;
+    height: 90%;
+    background-color: #018766;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 5%;
+}
+
+#calculadoraSencilla input[type="textfield"]{
+    width: 90%;
+    height: 45%;
+    border: 10px #036850 solid;
+    background-color: black;
+    color: white;
+    text-align: end;
+    font-size: 300%;
+    border-radius: 25px;
+}
+
+/* /////////////////////////////////////////////// */
+
+.contendBtn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 20%;
+    border-radius: 100%;
+    border: none;
+    background-color: #018766;
+    box-shadow: 5px 5px 5px 0px rgb(24,51,82,0.70 );
+    color: white;
+    font-size: 200%;
+}
+
+.btnUni{
+    width: 20%;
+    border-radius: 100%;
+    border: none;
+    background-color: #f29e1b;
+    box-shadow: 5px 5px 5px 0px rgb(24,51,82,0.70 );
+    color: white;
+    font-size: 200%;
+}
